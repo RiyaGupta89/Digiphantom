@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+header {
+  background-image: url("./images/desktop/AM_003_D.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 24%;
+  object-fit: cover;
+}
+
+#section1 {
+  background-image: url("./images/desktop/AM_003_D\(2\).png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 24%;
+  object-fit: cover;
+}
+#section2 {
+  background-image: url("./images/desktop/AM_003_D\(3\).png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 24%;
+  object-fit: cover;
+}
+#section3 {
+  background-image: url("./images/desktop/AM_003_D\(4\).png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 24%;
+  object-fit: cover;
+}
+
+@media (max-width: 1325px) {
+  #section3 {
+    padding: 23%;
+  }
+  #section2 {
+    padding: 23%;
+  }
+  #section1 {
+    padding: 23%;
+  }
+}
+
+@media (max-width: 1158px) {
+  header {
+    padding-bottom: 32%;
+  }
+  #section3 {
+    padding: 24%;
+    padding-bottom: 35%;
+  }
+  #section2 {
+    padding: 24%;
+    padding-bottom: 32%;
+  }
+  #section1 {
+    padding: 24%;
+    padding-bottom: 32%;
+  }
+}
+
+@media (max-width: 799px) {
+  header {
+    padding-bottom: 98%;
+  }
+  #section3 {
+    padding-bottom: 98%;
+  }
+  #section2 {
+    padding-bottom: 97%;
+  }
+  #section1 {
+    padding-bottom: 97%;
+  }
+}
+
+@media (max-width: 556px) {
+  header {
+    padding-bottom: 145%;
+  }
+  #section3 {
+    padding-bottom: 145%;
+  }
+  #section2 {
+    padding-bottom: 145%;
+  }
+  #section1 {
+    padding-bottom: 145%;
+  }
+}
